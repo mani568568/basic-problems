@@ -13,4 +13,12 @@ public class ArrayProblemsTest {
         int sum = 9;
         arrayProblems.printPairsSumIsXUsingHash(arr,sum);
     }
+
+    @Test
+    public void testPrintPairSumXUsingSort()
+    {
+        int[] arr = {1,4,3,2,6,5,7};
+        int sum = 9;
+        arrayProblems.printPairSumXUsingSort(arr,sum);
+    }
 }
