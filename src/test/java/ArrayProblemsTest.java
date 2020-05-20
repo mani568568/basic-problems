@@ -21,4 +21,13 @@ public class ArrayProblemsTest {
         int sum = 9;
         arrayProblems.printPairSumXUsingSort(arr,sum);
     }
+
+    @Test
+    public void testCountDistinctPairsWithDifferenceX()
+    {
+        int[] arr = {1,4,3,2,6,5,7};
+        int difference = 2;
+       int result =  arrayProblems.countDistinctPairsWithDifferenceX(arr,difference);
+        System.out.println(result);
+    }
 }
