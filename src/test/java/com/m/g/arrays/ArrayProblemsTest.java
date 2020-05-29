@@ -1,3 +1,5 @@
+package com.m.g.arrays;
+
 import com.m.g.arrays.ArrayProblems;
 import org.junit.Test;
 
