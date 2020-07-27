@@ -9,7 +9,7 @@ public class CountDistinctPairsWithDifferenceXTest {
     @Test
     public void testCountDistinctPairsWithDifferenceX()
     {
-        int[] arr = {1,4,3,2,6,5,7};
+        int[] arr = {1,4,2,3,5,7};
         int difference = 2;
         int result =  countDistinctPairsWithDifferenceX.countDistinctPairsWithDifferenceX(arr,difference);
         System.out.println(result);

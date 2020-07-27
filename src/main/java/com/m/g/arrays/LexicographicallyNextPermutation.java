@@ -30,11 +30,11 @@ public class LexicographicallyNextPermutation {
 
     public int[] findLexicographicallyNextPermutation(int[] inputArray)
     {
-        int arrayLen = inputArray.length-1;
+        int arrayLen = inputArray.length;
         int firstIndex = -1;
 
         //find last index (first from iterating right to left) where left element is smaller than right element
-        for(int index = arrayLen;index>0;index--)
+        for(int index = arrayLen-1;index>0;index--)
         {
             if(inputArray[index]>inputArray[index-1])
             {
@@ -50,7 +50,7 @@ public class LexicographicallyNextPermutation {
 
         //find the smallest no on the right which is greater than inputArray[index]
         int secondIndex = firstIndex+1;
-        for(int currentIndex = firstIndex+1;currentIndex<arrayLen;currentIndex++)
+        for(int currentIndex = firstIndex+1;currentIndex<arrayLen-1;currentIndex++)
         {
             if(inputArray[currentIndex]<inputArray[currentIndex+1] && inputArray[currentIndex+1]<inputArray[firstIndex])
             {
