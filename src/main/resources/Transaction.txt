@@ -1,0 +1,27 @@
+Transaction::
++++++++++++++
+
+A transaction means a unit of work performed within a database.
+A Transaction is often composed of multiple operations.
+A transaction is a collection of read and write operations that can either succeed or fail together,as a unit.
+
+ACID Properties:
+================
+
+Atomicity:
+----------
+A transaction should be treated as a single unit of operation, which means either the entire sequence of operations is successful or unsuccessful.
+
+Consistency:
+------------
+Ensures that a transaction can only bring the database from one valid state to another by preventing data corruption.
+
+Isolation:
+----------
+Intermediate state of a transaction is not visible to other concurrent transactions.
+Concurrent transactions are effectively serialized.
+
+Durability:
+-----------
+When a transaction completes, changes are stored in a persistent manner.
+Even if there's a power failure or other system errors, the effect of the completed transaction remains.
