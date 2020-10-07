@@ -3,4 +3,3 @@
     ================
     1.Given two unsorted arrays, find all pairs whose sum is x.
     2.Count pairs with given sum.
-2.Count all distinct pairs with difference equal to k
