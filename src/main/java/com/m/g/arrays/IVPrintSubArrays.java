@@ -1,11 +1,11 @@
 package com.m.g.arrays;
 
-public class PrintSubArrays {
+public class IVPrintSubArrays {
 
     /**
      * Find all the possible sub arrays in a given array.
      */
-     public static void printSubArrays(int inputArray[])
+     public void printSubArrays(int inputArray[])
      {
          for(int startIndex = 0;startIndex<inputArray.length;startIndex++)
          {
@@ -20,9 +20,5 @@ public class PrintSubArrays {
              }
          }
      }
-
-    public static void main(String[] args) {
-        printSubArrays(new int[]{1,2,3});
-    }
 
 }
