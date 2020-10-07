@@ -1,6 +1,6 @@
 package com.m.g.arrays;
 
-public class LargestThirdNumber {
+public class IILargestThirdNumber {
 
     public int findThirdLargestNumber(int[] inputArray)
     {
