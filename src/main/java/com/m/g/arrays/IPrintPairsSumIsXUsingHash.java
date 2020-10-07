@@ -1,6 +1,6 @@
 package com.m.g.arrays;
 
-public class PrintPairsSumIsXUsingHash {
+public class IPrintPairsSumIsXUsingHash {
 
     public void printPairsSumIsXUsingHash(int arr[],int sum)
     {

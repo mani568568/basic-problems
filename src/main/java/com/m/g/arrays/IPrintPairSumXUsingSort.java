@@ -2,7 +2,7 @@ package com.m.g.arrays;
 
 import java.util.Arrays;
 
-public class PrintPairSumXUsingSort {
+public class IPrintPairSumXUsingSort {
 
     public void printPairSumXUsingSort(int arr[],int sum)
     {
