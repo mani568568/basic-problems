@@ -1,0 +1,9 @@
+I.Count the number of islands
+Way1: we recursively iterate through and find the number of islands.
+Step1:
+we try to find the islands possible in every point in the matrix if it 1 i.e. land.
+Step2:
+once we find the land then search in 4 directions from that land.
+Also we mark the land as water to avoid processing it again.
+Step3:
+if we are able to find the land in any or all the 4 directions,then we do the step 2 again.

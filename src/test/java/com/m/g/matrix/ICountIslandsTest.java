@@ -1,11 +1,11 @@
-package com.m.g.arrays;
+package com.m.g.matrix;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-public class CountIslandsTest {
+public class ICountIslandsTest {
 
-    CountIslands countIslands = new CountIslands();
+    ICountIslands countIslands = new ICountIslands();
 
     @Test
     public void validateBasicInput()
