@@ -4,16 +4,16 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class LargestThirdNumberTest {
+public class IILargestThirdNumberTest {
 
-    LargestThirdNumber largestThirdNumber = new LargestThirdNumber();
+    IILargestThirdNumber iiLargestThirdNumber = new IILargestThirdNumber();
 
     @Test
     public void testCountDistinctPairsWithDifferenceX()
     {
         int[] arr = {4,2,5,1,0};
         int difference = 2;
-        int result=  largestThirdNumber.findThirdLargestNumber(arr);
+        int result=  iiLargestThirdNumber.findThirdLargestNumber(arr);
         assertEquals(result,2);
     }
 }

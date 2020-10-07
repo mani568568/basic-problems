@@ -1,3 +1,6 @@
 I.Given an array A[] and a number x, check for pair in A[] with sum as x
 Way1: Using an Extra Array
 Way2: Using sorting
+
+II.Third largest element in an array of distinct elements
+Way1: Using 3 variables to determine the 3rd largest number.
