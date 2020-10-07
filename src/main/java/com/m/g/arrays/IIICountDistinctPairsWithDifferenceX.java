@@ -1,6 +1,6 @@
 package com.m.g.arrays;
 
-public class CountDistinctPairsWithDifferenceX {
+public class IIICountDistinctPairsWithDifferenceX {
 
     public int countDistinctPairsWithDifferenceX(int arr[],int difference)
     {

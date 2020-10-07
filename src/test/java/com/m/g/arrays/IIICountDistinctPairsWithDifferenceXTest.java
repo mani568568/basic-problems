@@ -2,9 +2,9 @@ package com.m.g.arrays;
 
 import org.junit.Test;
 
-public class CountDistinctPairsWithDifferenceXTest {
+public class IIICountDistinctPairsWithDifferenceXTest {
 
-    CountDistinctPairsWithDifferenceX countDistinctPairsWithDifferenceX = new CountDistinctPairsWithDifferenceX();
+    IIICountDistinctPairsWithDifferenceX countDistinctPairsWithDifferenceX = new IIICountDistinctPairsWithDifferenceX();
 
     @Test
     public void testCountDistinctPairsWithDifferenceX()

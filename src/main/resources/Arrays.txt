@@ -4,3 +4,6 @@ Way2: Using sorting
 
 II.Third largest element in an array of distinct elements
 Way1: Using 3 variables to determine the 3rd largest number.
+
+III.Count distinct pairs with difference X
+Way1: Using an Extra Array
